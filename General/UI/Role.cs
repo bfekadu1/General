@@ -90,8 +90,10 @@ namespace General.UI
             {
                 if (roles[i].description == text)
                 {
+                    //trying
                     return roles[i].id;
                     break;
+                    // here
                 }
                 
             }
@@ -112,7 +114,7 @@ namespace General.UI
             {
                 connection.Open();
                 string sql = "select * from general.role where usri_d='" + userList.id + "'";
-                // trying to 
+                //trying to do
             }
             using (SqlConnection connection = new SqlConnection(context))
                 {
