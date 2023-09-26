@@ -84,6 +84,7 @@ namespace General.UI
             //throw new NotImplementedException();
             //another
         }
+        public int x = 0;
 
         public int getid(string text)
         {
@@ -96,6 +97,7 @@ namespace General.UI
                     break;
                     // here
                     //lhaskjlnc
+                    //opopoopo
                 }
                 
             }
